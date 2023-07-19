@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#wrapper{
+    height:100vh;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+.container{
+    position:relative;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.background{
+    transform: translateZ(-40px) scale(5);
+
+}
+
+.foreground{
+    transform: translateZ(-20px) scale(3);
+}
+
+.background, .foreground{
+    position:absolute;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    z-index:-1;
+}
+
+h1{
+    position: absolute;
+    top:5rem;
+
+    font-size:10rem;
+    letter-spacing:4px;
+    color: white;
+    text-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+
+/* .link-icon{
+    margin: 1px;
+    width: 10%;
+    padding: 1px;
+}     */
+section{
+    background-color: rgb(45,45,45);
+    color:white;
+    padding:5rem 0;
+}
+
+.secHeading{
+    font-size:5rem;
+    padding:0 10rem;
+}
+
+.text{
+    font-size:1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+}
+
+.bg{
+    position:relative;
+    width:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height:500px;
+}
+
+.desc{
+    position: absolute;
+    background-color: white;   
+    padding: 0.5rem 2.5rem;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateX(-50%);
+    color:black;
+    font-size:3.5rem;
+    font-weight:600;
+}
+
+.bg1{
+    background-image: url(./images/ironman1.jpg);
+}
+
+.bg2{
+    background-image: url(./images/hulk.jpg);
+}
+
+.bg3{
+    background-image: url(./images/ironman2.jpg);
+}
+
+.bg4{
+    background-image: url(./images/thor-movie-1.jpg);
+}
+
+.bg5{
+    background-image: url(./images/Captain\ America\ The\ First\ Avenger.jpg);
+}
+
+.bg6{
+    background-image: url(./images/marvel\ avengers.jpg);
+}
+
+
+.bg7{
+    background-image: url(./images/ironman3.jpg);
+}
+
+.bg8{
+    background-image: url(./images/thor\ the\ dark\ world.jpg);
+}
+
+.bg9{
+    background-image: url(./images/Captain\ America_\ The\ Winter\ Soldier\ HD\ Wallpaper.jpg);
+}
+
+.bg10{
+    background-image: url(./images/guardians\ of\ the\ galaxy\ vol-1.jpg);
+}
+
+.bg11{
+    background-image: url(./images/Avengers\ Age\ of\ Ultron\ Movie\ Wallpaper\ 2015\ by\ lesajt\ on.jpg);
+}
+
+.bg12{
+    background-image: url(./images/Ant\ man.jpg);
+}
+
+.bg13{
+    background-image: url(./images/Captain\ America_\ Civil\ War.jpg);
+}
+
+.bg14{
+    background-image: url(./images/Doctor\ Strange.jpg);
+}
+
+.bg15{
+    background-image: url(./images/Guardians\ of\ the\ Galaxy\ Vol.\ 2.jpg);
+}
+
+.bg16{
+    background-image: url(./images/Spider-Man\ Homecoming.jpg);
+}
+
+.bg17{
+    background-image: url(./images/Thor\ Ragnarok.jpg);
+}
+
+.bg18{
+    background-image: url(./images/Black\ Panther.png);
+}
+
+.bg19{
+    background-image: url(./images/Avengers\ Infinity\ War.jpg);
+}
+
+.bg20{
+    background-image: url(./images/Ant-Man\ and\ the\ Wasp.jpg);
+}
+
+.bg21{
+    background-image: url(./images/captain\ marvel.jpg);
+}
+
+.bg22{
+    background-image: url(./images/Avengers\ Endgame.png);
+}
+
+.bg23{
+    background-image: url(./images/Spider-Man\ Far\ From\ Home.jpg);
+}
+
+.bg24{
+    background-image: url(./images/Black\ Widow.jpg);
+}
+
+.bg25{
+    background-image: url(./images/Shang-Chi\ and\ the\ Legend\ of\ the\ Ten\ Rings.jpg);
+}
+
+.bg26{
+    background-image: url(./images/Eternals.jpg);
+}
+
+.bg27{
+    background-image: url(./images/Spider-Man\ No\ Way\ Home.jpg);
+}
+
+.bg28{
+    background-image: url(./images/Doctor\ Strange\ in\ the\ Multiverse\ of\ Madness.jpg);
+}
+
+.bg29{
+    background-image: url(./images/Thor\ Love\ and\ Thunder.jpg);
+}
+
+.bg30{
+    background-image: url(./images/Black\ Panther\ Wakanda\ Forever.jpg);
+}
